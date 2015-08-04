@@ -1,0 +1,25 @@
+This program hides and retrieves files inside images via steganography (least significant bit method).
+It can also analyze images to see how likely it is that they contain a stego.
+
+For Encoding:
+Host Image = The path to the image that the stego will be hidden inside
+Stego Path = The path to the stego (The stego is the file to be hidden inside the image)
+Output Image = The path to the new image that will be created with the stego hidden inside
+Press the 'Generate Preview' button to generate a preview of what the host image would look like after being encoded.
+Press the 'Encode' button to start encoding.
+You can encode the stego using a password so that it can only be decoded by someone who knows the password.
+
+For Decoding:
+Host Image = The path to the image that the stego will be decoded from
+Output Directory = The directory in which to store the stego after it has been decoded from the host image
+Press the 'Update' button at the bottom of the window.
+Press the 'Decode' button to start decoding.
+You can use a password to decode a stego if it was encoded with the same password.
+
+For Analyzing:
+Host Image = The path to the image to analyze
+Press the 'Analyze' button at the bottom of the window to analyze the host image for a stego.
+Please note that steganalysis is NOT 100% accurate.
+
+
+By: Justin Spedding and Andrew Miller
